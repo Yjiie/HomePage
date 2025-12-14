@@ -1,0 +1,51 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  background-color: #fafafa;
+  color: #333;
+}
+
+header {
+  background-color: #12dc96; /* простой синий фон */
+  color: white;
+  padding: 20px 0;
+  text-align: center; /* выравнивание по центру */
+}
+
+nav a {
+  margin: 0 15px;
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+nav a:hover {
+  text-decoration: underline;
+}
+
+main {
+  max-width: 600px;
+  margin: 30px auto; /* по центру горизонтально с отступом сверху и снизу */
+  padding: 0 15px;
+  background-color: white;
+  border-radius: 8px;
+  box-shadow: 0 0 5px rgba(0,0,0,0.1);
+}
+
+footer {
+    text-align: center;
+}
+
+.img-left {
+    float: left;
+    border-radius: 14px;
+    box-shadow: 0 1px 8px #aac3ed99;
+}
+.images{
+  width: 200px;
+  height: auto;
+}
+
+.Roles{
+  color: #333;
+}
